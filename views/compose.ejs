@@ -1,0 +1,11 @@
+<%- include("notok/header") %>
+<h1>Compose</h1>
+<form action="/compose" method="post">
+    <p>Title</p>
+    <input type="text" name="data" style="width: 100%;">
+    <P>Post</P>
+    <textarea name="text" id="" cols="30" rows="10" style="width: 100%;"></textarea>
+    <p></p>
+    <button type="submit" class="btn btn-outline-primary">publish</button>
+</form>
+<%- include("notok/footer") %>
